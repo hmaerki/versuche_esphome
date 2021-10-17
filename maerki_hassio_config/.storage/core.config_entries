@@ -1,0 +1,92 @@
+{
+    "version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "d1d38e2935b6841b9bc4c8bdf854b27d",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Mi A3",
+                "data": {
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "2021.10.0-full (761)",
+                    "device_name": "Mi A3",
+                    "manufacturer": "Xiaomi",
+                    "model": "Mi A3",
+                    "os_name": "Android",
+                    "os_version": "30",
+                    "supports_encryption": false,
+                    "app_data": {
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+                        "push_token": "dyFAKYuNRMyEosBqStjbxm:APA91bGIqoneSxsaZwB2dgrrVBTmwPWkBOwDYkreRCy-Aanclc1XxfUgJImELfYlbzKqS_h0wrsQQxt1HXaYoAnbxMSrgHvZ6b6KQJlOiylcjiknwbmXtz2OUtuc51ajEhHpyPLqWnsz"
+                    },
+                    "device_id": "0b78fcf88efc1243",
+                    "webhook_id": "a2caf30995bd0077637c67b8eabdc54ccca67406122dcebc3beef96606db3745",
+                    "user_id": "6d992cbe98cb438784b23b3503ac1338"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.homeassistant.companion.android-0b78fcf88efc1243",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "d00cfdeea2f532db22476cbf9c00bef1",
+                "version": 1,
+                "domain": "esphome",
+                "title": "sonoff-re5v1c",
+                "data": {
+                    "host": "192.168.179.28",
+                    "port": 6053,
+                    "password": "",
+                    "noise_psk": ""
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "sonoff-re5v1c",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "aa945a97415be82bea70a7073b5d52b6",
+                "version": 1,
+                "domain": "esphome",
+                "title": "esp32devboard",
+                "data": {
+                    "host": "192.168.179.25",
+                    "port": 6053,
+                    "password": "",
+                    "noise_psk": ""
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "esp32devboard",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "ab90464453a49e43c9f74322498d87c6",
+                "version": 1,
+                "domain": "esphome",
+                "title": "esp32devboard",
+                "data": {
+                    "host": "192.168.179.25",
+                    "port": 6053,
+                    "password": "",
+                    "noise_psk": ""
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "sonoff-dual-r3-v1",
+                "disabled_by": null
+            }
+        ]
+    }
+}

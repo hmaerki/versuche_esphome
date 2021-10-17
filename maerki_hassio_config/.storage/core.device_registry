@@ -1,0 +1,76 @@
+{
+    "version": 1,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "d1d38e2935b6841b9bc4c8bdf854b27d"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "0b78fcf88efc1243"
+                    ]
+                ],
+                "manufacturer": "Xiaomi",
+                "model": "Mi A3",
+                "name": "Mi A3",
+                "sw_version": "30",
+                "entry_type": null,
+                "id": "06d1d2babc5f7e374ac97c5f12ab2077",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d00cfdeea2f532db22476cbf9c00bef1"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "70:03:9f:74:30:c8"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "espressif",
+                "model": "esp01_1m",
+                "name": "sonoff-re5v1c",
+                "sw_version": "2021.9.3 (Oct 17 2021, 18:25:32)",
+                "entry_type": null,
+                "id": "e73ea9078ac7fa163ef93e26be92a4da",
+                "via_device_id": null,
+                "area_id": "office",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "aa945a97415be82bea70a7073b5d52b6",
+                    "ab90464453a49e43c9f74322498d87c6"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "9c:9c:1f:c6:1b:bc"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "espressif",
+                "model": "nodemcu-32s",
+                "name": "esp32devboard",
+                "sw_version": "2021.9.3 (Oct 17 2021, 19:38:00)",
+                "entry_type": null,
+                "id": "dd0eb8fc41a87aeef3f5e975b2e72e26",
+                "via_device_id": null,
+                "area_id": "office",
+                "name_by_user": null,
+                "disabled_by": null
+            }
+        ],
+        "deleted_devices": []
+    }
+}

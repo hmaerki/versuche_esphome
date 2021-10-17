@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "Aemmetweg",
+                "user_id": "6d992cbe98cb438784b23b3503ac1338",
+                "device_trackers": [
+                    "device_tracker.mi_a3"
+                ],
+                "id": "aemmetweg"
+            }
+        ]
+    }
+}

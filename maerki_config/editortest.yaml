@@ -1,0 +1,24 @@
+esphome:
+  name: editortest
+  platform: ESP8266
+  board: gen4iod
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+
+ota:
+  password: "1473e6ffc218338cc07656e1b1b1c77d"
+
+wifi:
+  ssid: "tumbes"
+  password: "karlotto76"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Editortest Fallback Hotspot"
+    password: "kaZ1sNMt5xvF"
+
+captive_portal:

@@ -1,0 +1,93 @@
+{
+    "version": 1,
+    "key": "auth",
+    "data": {
+        "users": [
+            {
+                "id": "6d992cbe98cb438784b23b3503ac1338",
+                "group_ids": [
+                    "system-admin"
+                ],
+                "is_owner": true,
+                "is_active": true,
+                "name": "Aemmetweg",
+                "system_generated": false
+            }
+        ],
+        "groups": [
+            {
+                "id": "system-admin",
+                "name": "Administrators"
+            },
+            {
+                "id": "system-users",
+                "name": "Users"
+            },
+            {
+                "id": "system-read-only",
+                "name": "Read Only"
+            }
+        ],
+        "credentials": [
+            {
+                "id": "b00338a0e5884d168ce60226385ca568",
+                "user_id": "6d992cbe98cb438784b23b3503ac1338",
+                "auth_provider_type": "homeassistant",
+                "auth_provider_id": null,
+                "data": {
+                    "username": "maerki"
+                }
+            }
+        ],
+        "refresh_tokens": [
+            {
+                "id": "6f6318f832494c0b8add8832651dd82e",
+                "user_id": "6d992cbe98cb438784b23b3503ac1338",
+                "client_id": "http://localhost:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-10-17T13:28:13.539771+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "7a7cc150fa4ac5cb6eb5deab332d2d8c7be9bf2c156fb1f919371890c7893d8259704ea5cf881bb91a0de8d01b539569b1bdac2e6b470c86c99b26292a40e667",
+                "jwt_key": "947e940501d550aae0d7757cfcbe00a405de1087887abb390c661207ce3696b9c4256eacc660ee3d8691c4c9b13273170e597e32c250224c392aea75a5782ca0",
+                "last_used_at": "2021-10-17T20:11:43.068211+00:00",
+                "last_used_ip": "::1",
+                "credential_id": "b00338a0e5884d168ce60226385ca568",
+                "version": "2021.10.5"
+            },
+            {
+                "id": "b65f2e8980c64b7e924e23b1dba77f7b",
+                "user_id": "6d992cbe98cb438784b23b3503ac1338",
+                "client_id": "https://home-assistant.io/android",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-10-17T13:32:23.319536+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "948572b3335911d6b1dd5b12186653dfa1440a111bca7bc0308fd921fa7747183c31fbe0116d7180b7c8db65bc723ea90c76aad6a32f3b0c8cf74ed2b623cbf4",
+                "jwt_key": "afc50aac40a4a4bf946262a12e2e9fa90aa0e01ccf28d1d39145172e9c4bb3cd33e4d49235480a0cca68c134aa5662d2d24065283b24be4eac6ae393da4bfbfa",
+                "last_used_at": "2021-10-17T19:11:42.961924+00:00",
+                "last_used_ip": "192.168.179.11",
+                "credential_id": "b00338a0e5884d168ce60226385ca568",
+                "version": "2021.10.5"
+            },
+            {
+                "id": "04fac3df1a2943aeadc648030991a5ef",
+                "user_id": "6d992cbe98cb438784b23b3503ac1338",
+                "client_id": "http://192.168.179.14:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-10-17T18:05:20.702540+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "41f6dbfb05dc5170eab065897bf05cfd91d9d4a36e14550bf5c459da6d1aa8b9e46480c541958f96b9cf250e0ccb513aba62463296620afbc2b420c42f3ef098",
+                "jwt_key": "2b62781781de48f757d1e09f6f2756fc4210bc75c225f5b8c053814184725c34531293be332296fe3f85e7a92b33d4b93a5a3b14b4a80ea773ac29fb618f720a",
+                "last_used_at": "2021-10-17T19:04:38.369490+00:00",
+                "last_used_ip": "192.168.179.14",
+                "credential_id": "b00338a0e5884d168ce60226385ca568",
+                "version": "2021.10.5"
+            }
+        ]
+    }
+}

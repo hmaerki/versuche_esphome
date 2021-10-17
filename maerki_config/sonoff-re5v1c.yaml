@@ -1,0 +1,46 @@
+esphome:
+  name: sonoff-re5v1c
+  platform: ESP8266
+  board: esp01_1m
+
+# Enable logging
+logger:
+  level: INFO
+
+# Enable Home Assistant API
+api:
+
+ota:
+  password: "f96d5edd7e17b4cd7fdb6a46ae0e28a7"
+
+wifi:
+  ssid: "tumbes"
+  password: "karlotto76"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Sonoff-Re5V1C Fallback Hotspot"
+    password: "1122334455667788"
+
+captive_portal:
+
+# binary_sensor:
+#   - platform: gpio
+#     pin:
+#       number: GPIO0
+#       mode: INPUT_PULLUP
+#       inverted: true
+#     name: "Sonoff Basic Button"
+#     on_press:
+#       - switch.toggle: relay
+
+switch:
+  - platform: gpio
+    name: "Relay"
+    pin: GPIO12
+    id: relay
+
+status_led:
+  pin:
+    number: GPIO13
+    inverted: yes

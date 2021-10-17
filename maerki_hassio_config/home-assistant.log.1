@@ -1,0 +1,145 @@
+2021-10-17 20:03:51 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //config/home-assistant_v2.db was shutdown cleanly
+2021-10-17 20:03:51 WARNING (Recorder) [homeassistant.components.recorder.util] Ended unfinished session (id=4 from 2021-10-17 18:03:45.230039)
+2021-10-17 20:04:22 WARNING (MainThread) [homeassistant.components.esphome] Can't connect to ESPHome API for esp32devboard2 (10.0.11.38): Timeout while connecting to ('10.0.11.38', 6053)
+2021-10-17 20:06:05 WARNING (Thread-4) [homeassistant.helpers.template] Template warning: 'strptime' got invalid input '2021-10-18T06:07:50.420861+00:00' when rendering template '{## Imitate available variables: ##}
+{% set my_test_json = {
+  "temperature": 25,
+  "unit": "°C"
+} %}
+
+The temperature is {{ my_test_json.temperature }} {{ my_test_json.unit }}.
+
+{% if is_state("sun.sun", "above_horizon") -%}
+  The sun rose {{ relative_time(states.sun.sun.last_changed) }} ago.
+{%- else -%}
+  The sun will rise at {{ as_timestamp(strptime(state_attr("sun.sun", "next_rising"), "")) | timestamp_local }}.
+{%- endif %}
+
+For loop example getting entity values in the weather domain:
+
+{% for state in states.weather -%}
+  {%- if loop.first %}The {% elif loop.last %} and the {% else %}, the {% endif -%}
+  {{ state.name | lower }} is {{state.state_with_unit}}
+{%- endfor %}.' but no default was specified. Currently 'strptime' will return '2021-10-18T06:07:50.420861+00:00', however this template will fail to render in Home Assistant core 2021.12
+2021-10-17 20:06:05 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'strptime' got invalid input '2021-10-18T06:07:50.420861+00:00' when rendering template '{## Imitate available variables: ##}
+{% set my_test_json = {
+  "temperature": 25,
+  "unit": "°C"
+} %}
+
+The temperature is {{ my_test_json.temperature }} {{ my_test_json.unit }}.
+
+{% if is_state("sun.sun", "above_horizon") -%}
+  The sun rose {{ relative_time(states.sun.sun.last_changed) }} ago.
+{%- else -%}
+  The sun will rise at {{ as_timestamp(strptime(state_attr("sun.sun", "next_rising"), "")) | timestamp_local }}.
+{%- endif %}
+
+For loop example getting entity values in the weather domain:
+
+{% for state in states.weather -%}
+  {%- if loop.first %}The {% elif loop.last %} and the {% else %}, the {% endif -%}
+  {{ state.name | lower }} is {{state.state_with_unit}}
+{%- endfor %}.' but no default was specified. Currently 'strptime' will return '2021-10-18T06:07:50.420861+00:00', however this template will fail to render in Home Assistant core 2021.12
+2021-10-17 20:06:05 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'strptime' got invalid input '2021-10-18T06:07:50.420861+00:00' when rendering template '{## Imitate available variables: ##}
+{% set my_test_json = {
+  "temperature": 25,
+  "unit": "°C"
+} %}
+
+The temperature is {{ my_test_json.temperature }} {{ my_test_json.unit }}.
+
+{% if is_state("sun.sun", "above_horizon") -%}
+  The sun rose {{ relative_time(states.sun.sun.last_changed) }} ago.
+{%- else -%}
+  The sun will rise at {{ as_timestamp(strptime(state_attr("sun.sun", "next_rising"), "")) | timestamp_local }}.
+{%- endif %}
+
+For loop example getting entity values in the weather domain:
+
+{% for state in states.weather -%}
+  {%- if loop.first %}The {% elif loop.last %} and the {% else %}, the {% endif -%}
+  {{ state.name | lower }} is {{state.state_with_unit}}
+{%- endfor %}.' but no default was specified. Currently 'strptime' will return '2021-10-18T06:07:50.420861+00:00', however this template will fail to render in Home Assistant core 2021.12
+2021-10-17 20:07:29 WARNING (Thread-5) [homeassistant.helpers.template] Template warning: 'strptime' got invalid input '2021-10-18T06:07:50.420861+00:00' when rendering template '{## Imitate available variables: ##}
+{% set my_test_json = {
+  "temperature": 25,
+  "unit": "°C"
+} %}
+
+The temperature is {{ my_test_json.temperature }} {{ my_test_json.unit }}.
+
+{% if is_state("sun.sun", "above_horizon") -%}
+  The sun rose {{ relative_time(states.sun.sun.last_changed) }} ago.
+{%- else -%}
+  The sun will rise at {{ as_timestamp(strptime(state_attr("sun.sun", "next_rising"), "")) | timestamp_local }}.
+{%- endif %}
+
+For loop example getting entity values in the weather domain:
+
+{% for state in states.weather -%}
+  {%- if loop.first %}The {% elif loop.last %} and the {% else %}, the {% endif -%}
+  {{ state.name | lower }} is {{state.state_with_unit}}
+{%- endfor %}.' but no default was specified. Currently 'strptime' will return '2021-10-18T06:07:50.420861+00:00', however this template will fail to render in Home Assistant core 2021.12
+2021-10-17 20:07:29 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'strptime' got invalid input '2021-10-18T06:07:50.420861+00:00' when rendering template '{## Imitate available variables: ##}
+{% set my_test_json = {
+  "temperature": 25,
+  "unit": "°C"
+} %}
+
+The temperature is {{ my_test_json.temperature }} {{ my_test_json.unit }}.
+
+{% if is_state("sun.sun", "above_horizon") -%}
+  The sun rose {{ relative_time(states.sun.sun.last_changed) }} ago.
+{%- else -%}
+  The sun will rise at {{ as_timestamp(strptime(state_attr("sun.sun", "next_rising"), "")) | timestamp_local }}.
+{%- endif %}
+
+For loop example getting entity values in the weather domain:
+
+{% for state in states.weather -%}
+  {%- if loop.first %}The {% elif loop.last %} and the {% else %}, the {% endif -%}
+  {{ state.name | lower }} is {{state.state_with_unit}}
+{%- endfor %}.' but no default was specified. Currently 'strptime' will return '2021-10-18T06:07:50.420861+00:00', however this template will fail to render in Home Assistant core 2021.12
+2021-10-17 20:07:29 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'strptime' got invalid input '2021-10-18T06:07:50.420861+00:00' when rendering template '{## Imitate available variables: ##}
+{% set my_test_json = {
+  "temperature": 25,
+  "unit": "°C"
+} %}
+
+The temperature is {{ my_test_json.temperature }} {{ my_test_json.unit }}.
+
+{% if is_state("sun.sun", "above_horizon") -%}
+  The sun rose {{ relative_time(states.sun.sun.last_changed) }} ago.
+{%- else -%}
+  The sun will rise at {{ as_timestamp(strptime(state_attr("sun.sun", "next_rising"), "")) | timestamp_local }}.
+{%- endif %}
+
+For loop example getting entity values in the weather domain:
+
+{% for state in states.weather -%}
+  {%- if loop.first %}The {% elif loop.last %} and the {% else %}, the {% endif -%}
+  {{ state.name | lower }} is {{state.state_with_unit}}
+{%- endfor %}.' but no default was specified. Currently 'strptime' will return '2021-10-18T06:07:50.420861+00:00', however this template will fail to render in Home Assistant core 2021.12
+2021-10-17 20:26:00 WARNING (MainThread) [homeassistant.components.esphome] Can't connect to ESPHome API for sonoff-re5v1c (192.168.179.28): Hello timed out
+2021-10-17 20:32:11 WARNING (MainThread) [homeassistant.components.esphome] Can't connect to ESPHome API for sonoff-dual-r3-v1 (192.168.179.25): Hello timed out
+2021-10-17 20:32:11 WARNING (MainThread) [homeassistant.components.esphome] Can't connect to ESPHome API for esp32devboard (192.168.179.25): Hello timed out
+2021-10-17 20:35:37 WARNING (MainThread) [homeassistant.components.esphome] Can't connect to ESPHome API for sonoff-dual-r3-v1 (192.168.179.25): Error while reading data: [Errno 104] Connection reset by peer
+2021-10-17 20:35:40 ERROR (MainThread) [homeassistant.components.switch] Platform esphome does not generate unique IDs. ID esp32devboardswitchblue_led already exists - ignoring switch.blue_led
+2021-10-17 20:42:41 WARNING (MainThread) [homeassistant.components.esphome] Can't connect to ESPHome API for sonoff-dual-r3-v1 (192.168.179.25): Hello timed out
+2021-10-17 20:42:41 WARNING (MainThread) [homeassistant.components.esphome] Can't connect to ESPHome API for esp32devboard (192.168.179.25): Hello timed out
+2021-10-17 20:42:42 ERROR (MainThread) [homeassistant.components.binary_sensor] Platform esphome does not generate unique IDs. ID esp32devboardbinary_sensorpin_gpio23 already exists - ignoring binary_sensor.pin_gpio23
+2021-10-17 20:42:42 ERROR (MainThread) [homeassistant.components.light] Platform esphome does not generate unique IDs. ID esp32devboardlightblue_led already exists - ignoring light.blue_led
+2021-10-17 20:53:19 WARNING (MainThread) [homeassistant.components.esphome] Can't connect to ESPHome API for sonoff-dual-r3-v1 (192.168.179.25): Hello timed out
+2021-10-17 20:53:19 WARNING (MainThread) [homeassistant.components.esphome] Can't connect to ESPHome API for esp32devboard (192.168.179.25): Hello timed out
+2021-10-17 20:53:19 ERROR (MainThread) [homeassistant.components.light] Platform esphome does not generate unique IDs. ID esp32devboardlightred_status_led already exists - ignoring light.red_status_led
+2021-10-17 20:59:11 WARNING (MainThread) [homeassistant.components.esphome] Can't connect to ESPHome API for sonoff-dual-r3-v1 (192.168.179.25): Hello timed out
+2021-10-17 20:59:11 WARNING (MainThread) [homeassistant.components.esphome] Can't connect to ESPHome API for esp32devboard (192.168.179.25): Hello timed out
+2021-10-17 20:59:12 ERROR (MainThread) [homeassistant.components.light] Platform esphome does not generate unique IDs. ID esp32devboardlightpin_gipo22_out already exists - ignoring light.pin_gipo22_out
+2021-10-17 21:21:12 WARNING (MainThread) [homeassistant.components.esphome] Can't connect to ESPHome API for sonoff-dual-r3-v1 (192.168.179.25): Error while reading data: [Errno 104] Connection reset by peer
+2021-10-17 21:21:14 ERROR (MainThread) [homeassistant.components.light] Platform esphome does not generate unique IDs. ID esp32devboardlightred_status_led already exists - ignoring light.red_status_led
+2021-10-17 21:31:28 WARNING (MainThread) [homeassistant.components.esphome] Can't connect to ESPHome API for esp32devboard (192.168.179.25): Invalid password!
+2021-10-17 21:31:28 WARNING (MainThread) [homeassistant.components.esphome] Can't connect to ESPHome API for sonoff-dual-r3-v1 (192.168.179.25): Invalid password!
+2021-10-17 21:41:53 WARNING (MainThread) [homeassistant.components.esphome] Can't connect to ESPHome API for sonoff-dual-r3-v1 (192.168.179.25): Error while reading data: [Errno 104] Connection reset by peer
+2021-10-17 21:58:34 WARNING (MainThread) [homeassistant.components.esphome] Can't connect to ESPHome API for sonoff-dual-r3-v1 (192.168.179.25): Error while reading data: [Errno 104] Connection reset by peer
+2021-10-17 21:58:34 WARNING (MainThread) [homeassistant.components.esphome] Can't connect to ESPHome API for esp32devboard (192.168.179.25): Hello timed out

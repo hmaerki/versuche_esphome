@@ -1,0 +1,70 @@
+{
+    "version": 1,
+    "key": "esphome.ab90464453a49e43c9f74322498d87c6",
+    "data": {
+        "device_info": {
+            "uses_password": false,
+            "name": "esp32devboard",
+            "mac_address": "9C:9C:1F:C6:1B:BC",
+            "compilation_time": "Oct 17 2021, 19:38:00",
+            "model": "nodemcu-32s",
+            "has_deep_sleep": false,
+            "esphome_version": "2021.9.3",
+            "project_name": "",
+            "project_version": ""
+        },
+        "services": [],
+        "api_version": {
+            "major": 1,
+            "minor": 6
+        },
+        "switch": [],
+        "binary_sensor": [
+            {
+                "object_id": "pin_gpio23",
+                "key": 860687333,
+                "name": "Pin GPIO23",
+                "unique_id": "esp32devboardbinary_sensorpin_gpio23",
+                "disabled_by_default": false,
+                "device_class": "",
+                "is_status_binary_sensor": false
+            }
+        ],
+        "light": [
+            {
+                "object_id": "pin_gipo22_out",
+                "key": 2447635299,
+                "name": "Pin GIPO22 out",
+                "unique_id": "esp32devboardlightpin_gipo22_out",
+                "disabled_by_default": false,
+                "supported_color_modes": [
+                    1
+                ],
+                "min_mireds": 0.0,
+                "max_mireds": 0.0,
+                "effects": [],
+                "legacy_supports_brightness": false,
+                "legacy_supports_rgb": false,
+                "legacy_supports_white_value": false,
+                "legacy_supports_color_temperature": false
+            },
+            {
+                "object_id": "red_status_led",
+                "key": 3438876325,
+                "name": "Red Status LED",
+                "unique_id": "esp32devboardlightred_status_led",
+                "disabled_by_default": false,
+                "supported_color_modes": [
+                    1
+                ],
+                "min_mireds": 0.0,
+                "max_mireds": 0.0,
+                "effects": [],
+                "legacy_supports_brightness": false,
+                "legacy_supports_rgb": false,
+                "legacy_supports_white_value": false,
+                "legacy_supports_color_temperature": false
+            }
+        ]
+    }
+}

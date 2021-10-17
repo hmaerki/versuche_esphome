@@ -1,0 +1,33 @@
+{
+    "version": 1,
+    "key": "esphome.d00cfdeea2f532db22476cbf9c00bef1",
+    "data": {
+        "device_info": {
+            "uses_password": false,
+            "name": "sonoff-re5v1c",
+            "mac_address": "70:03:9F:74:30:C8",
+            "compilation_time": "Oct 17 2021, 18:25:32",
+            "model": "esp01_1m",
+            "has_deep_sleep": false,
+            "esphome_version": "2021.9.3",
+            "project_name": "",
+            "project_version": ""
+        },
+        "services": [],
+        "api_version": {
+            "major": 1,
+            "minor": 6
+        },
+        "switch": [
+            {
+                "object_id": "relay",
+                "key": 3551080420,
+                "name": "Relay",
+                "unique_id": "sonoff-re5v1cswitchrelay",
+                "disabled_by_default": false,
+                "icon": "",
+                "assumed_state": false
+            }
+        ]
+    }
+}

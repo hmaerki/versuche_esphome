@@ -1,0 +1,51 @@
+esphome:
+  name: esp32devboard
+  platform: ESP32
+  board: nodemcu-32s
+
+# Enable logging
+logger:
+  level: INFO
+
+# Enable Home Assistant API
+api:
+  # password: "bliblablo"
+  # password: "057e60411387098c8964a3d196184922"
+
+ota:
+  password: "057e60411387098c8964a3d196184922"
+
+wifi:
+  ssid: "tumbes"
+  password: "karlotto76"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Esp32Devboard2 Fallback Hotspot"
+    password: "1122334455667788"
+
+captive_portal:
+
+# https://esphome.io/devices/nodemcu_esp32.html
+binary_sensor:
+  - platform: gpio
+    name: "Pin GPIO23"
+    pin: GPIO23
+
+light:
+  - platform: binary
+    name: "Pin GIPO22 out"
+    output: gpio22_out
+
+  - platform: binary
+    name: "Red Status LED"
+    output: red_led
+
+output:
+  - id: gpio22_out
+    platform: gpio
+    pin: GPIO22
+
+  - id: red_led
+    platform: gpio
+    pin: GPIO2
