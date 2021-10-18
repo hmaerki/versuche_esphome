@@ -1,5 +1,9 @@
 # Design of esphome
 
+Esphome seems to be written quite nicely. The autors implemented some nice features.
+
+I took some hours to summarize what I found valuable.
+
 ## pytest mixed with components
 
 ## Editor component
@@ -11,6 +15,14 @@ https://stackshare.io/stackups/ace-vs-codemirror
 https://ace.c9.io/
 
 esphome/esphome/config.py
+
+### Web components
+
+* https://github.com/esphome/aioesphomeapi - Python using asyncio
+
+* https://github.com/esphome/dashboard - Javascript
+
+Where is the server side component of the ace editor. Where are the parse errors returned?
 
 ## Yaml error messages including line numbers
 
@@ -134,6 +146,9 @@ class EsphomeVscodeHandler(EsphomeCommandWebSocket):
 ```
 
 ## https://github.com/yaml/pyyaml/
+
+I looked at the sources of the parsers and tried to find some tricky to read yaml constructs.
+
 https://github.com/yaml/pyyaml/blob/master/lib/yaml/constructor.py
 construct_yaml_int
 
@@ -159,3 +174,7 @@ q: { 1_ : 2}
 r: { _1 : 2}
 """, Loader=yaml.SafeLoader)
 ```
+
+
+
+
